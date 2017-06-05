@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_home" >
+
+    <ScrollView
+        android:id="@+id/scroller"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_top"
+            android:weightSum="6" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:id="@+id/Attendance"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_home_seector"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:src="@mipmap/ic_account_box_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:text="Account"
+                        android:textColor="@color/txtcol"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/balace_stock"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="@dimen/left"
+                    android:layout_marginRight="@dimen/left"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_home_seector"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:src="@mipmap/ic_playlist_add_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:gravity="center"
+                        android:text="Attendance"
+                        android:textColor="@color/txtcol"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/left"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:id="@+id/new_retailer"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_home_seector"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:src="@mipmap/ic_trending_up_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:gravity="center"
+                        android:text="Performance"
+                        android:textColor="@color/txtcol"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/call_wise_reporting"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="@dimen/left"
+                    android:layout_marginRight="@dimen/left"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_home_seector"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:src="@mipmap/ic_receipt_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:gravity="center"
+                        android:text="Result"
+                        android:textColor="@color/txtcol"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/left"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10" >
+
+
+                <LinearLayout
+                    android:id="@+id/payment_collection"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_home_seector"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:src="@mipmap/ic_file_download_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:gravity="center"
+                        android:text="Download"
+                        android:textColor="@color/txtcol"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/home_report_page"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="@dimen/left"
+                    android:layout_marginRight="@dimen/left"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_home_seector"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:src="@mipmap/ic_description_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:text="Tables"
+                        android:textColor="@color/txtcol"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/left"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="10" >
+
+                <LinearLayout
+                    android:id="@+id/check_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_home_seector"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:src="@mipmap/ic_attach_file_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:gravity="center"
+                        android:text="NoticeBoard"
+                        android:textColor="@color/txtcol"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/complaint_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="@dimen/left"
+                    android:layout_marginRight="@dimen/left"
+                    android:layout_weight="5"
+                    android:background="@drawable/bg_home_seector"
+                    android:gravity="center"
+                    android:orientation="vertical" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:src="@mipmap/ic_exit_to_app_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/home_margin"
+                        android:layout_marginTop="@dimen/home_margin"
+                        android:gravity="center"
+                        android:text="Logout"
+                        android:textColor="@color/txtcol"
+                        android:textSize="@dimen/text_size" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

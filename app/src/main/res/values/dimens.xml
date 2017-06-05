@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_left">5dp</dimen>
+    <dimen name="text_size">13dp</dimen>
+    <dimen name="text_hid">50dp</dimen>
+    <dimen name="text_title_size">15dp</dimen>
+
+
+    <dimen name="edit_remarks_hid">80dp</dimen>
+
+    <dimen name="button_wid">100dp</dimen>
+    <dimen name="button_hid">50dp</dimen>
+    <dimen name="btn_hight">45dp</dimen>
+    <dimen name="button_text_size">20dp</dimen>
+
+    <dimen name="left">1dp</dimen>
+    <dimen name="layout_height">150dp</dimen>
+    <dimen name="home_margin">20dp</dimen>
+
+    <dimen name="spin_hid">50dp</dimen>
+    <dimen name="edit_hid">50dp</dimen>
+
+
+    <!-- Multilevel Listview Dimension -->
+    <dimen name="font_default">16dp</dimen>
+    <dimen name="font_small">12dp</dimen>
+    <dimen name="offset_default">3dp</dimen>
+    <dimen name="padding_default">12dp</dimen>
+
+    <dimen name="data_item_row_height">45dp</dimen>
+    <dimen name="data_item_row_padding">5dp</dimen>
+
+    <dimen name="level_beam_line_width">6dp</dimen>
+    <dimen name="level_beam_line_offset">2dp</dimen>
+
+
+    <!-- Multilevel Listview Dimension -->
+
+</resources>
